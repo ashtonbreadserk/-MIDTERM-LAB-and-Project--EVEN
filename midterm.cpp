@@ -11,7 +11,7 @@ int choice, dateTravel, mealPref, seatPref, loyaltyMem, specialReq, durationFlig
 // Get the user's name
 cout << "Welcome to SkySail Airline Reservation System" << endl;
 cout << "Please enter your name: ";
-cin >> userName;
+getline(cin, userName);
 
 // Display the menu
 cout << "\nHello, " << userName << "!" << endl;
